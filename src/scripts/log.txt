@@ -1,811 +1,0 @@
-
-[20190226_15:53:50]FILE: monitor_ping.c, LINE: 171: ----3----link_status--------- connected
-
-[20190226_15:53:51][47;30m[uni_power.c:check_power:289][0m "check_power[289]:battery charging full\n"
-
-[20190226_15:53:51][47;30m[uni_power.c:uni_power_check:499][0m "power_tip:1!!\n"
-
-[20190226_15:53:51][47;30m[UniSDK uni_wakeup.c:uni_reset_wakeup_time:894][0m "iAudioCount set to be 0, Tue Feb 26 15:53:52 2019
-
-[20190226_15:53:51]"
-
-[20190226_15:53:51][47;30m[uni_power.c:uni_power_check:546][0m "capacity_trend:2!!\n"
-
-[20190226_15:53:51][47;30m[uni_power.c:uni_power_check:551][0m "g_check_usb_state:1!!\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2300][0m "get data respType : 4, dataType : 1, dataID : 0, messageNum : 0 "
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2301][0m "iRet : 53\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2316][0m "sid=no_audio_request_624dfe9bf3e84bde902ad5a3df0a198a\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2318][0m "messageNum = 0,clear opus_data buff\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2319][0m "-------------end lc 4 recv\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2282][0m "send heat data while recving\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2300][0m "get data respType : 4, dataType : 1, dataID : 0, messageNum : 0 "
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2301][0m "iRet : 53\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2316][0m "sid=no_audio_request_47bae7ce9ca6769d8eff617118ef3415\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2318][0m "messageNum = 0,clear opus_data buff\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2319][0m "-------------end lc 4 recv\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2300][0m "get data respType : i, dataType : 2, dataID : 36, messageNum : 0 "
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_kar_start:2301][0m "iRet : 756\n"
-
-[20190226_15:53:52]	"MT":	"IACT",
-
-[20190226_15:53:52]	"V":	"v1",
-
-[20190226_15:53:52]	"MB":	{
-
-[20190226_15:53:52]		"AI":	{
-
-[20190226_15:53:52]			"SId":	"bmgfkakicb2et243usfbizdt45mp6utbtb3433il:ac71480d67d04d12a520fcce5709d0ce",
-
-[20190226_15:53:52]			"SRId":	"98dfeb58f19e4d42b05175e5e8c10b7a",
-
-[20190226_15:53:52]			"IT":	"request"
-
-[20190226_15:53:52]		},
-
-[20190226_15:53:52]		"DG":	{
-
-[20190226_15:53:52]			"DSN":	"iot.dstservice.enjoymusic",
-
-[20190226_15:53:52]				"actionRespId":	"091bdbf9-d53c-4f90-834f-ae64d7814059",
-
-[20190226_15:53:52]				"actionDstSId":	"023c33ec-c1af-4e0a-8c82-ee542c9d2795",
-
-[20190226_15:53:52]				"actionTS":	"1551167632903"
-
-[20190226_15:53:52]			}
-
-[20190226_15:53:52]		},
-
-[20190226_15:53:52]		"DS":	{
-
-[20190226_15:53:52]			"SS":	{
-
-[20190226_15:53:52]				"DSTS":	"playing"
-
-[20190226_15:53:52]			},
-
-[20190226_15:53:52]			"UNICMD":	[{
-
-[20190226_15:53:52]					"CP":	"iot.capability.auopr",
-
-[20190226_15:53:52]					"OPER":	"iot.command.auopr.play",
-
-[20190226_15:53:52]					"PT":	{
-
-[20190226_15:53:52]								"oper":	"ACT_PLAY",
-
-[20190226_15:53:52]								"attrs":	{
-
-[20190226_15:53:52]									"comType":	"1",
-
-[20190226_15:53:52]									"audioId":	"2000023858",
-
-[20190226_15:53:52]									"domainName":	"1",
-
-[20190226_15:53:52]									"pi":	"s1",
-
-[20190226_15:53:52]									"conPlay":	"1",
-
-[20190226_15:53:52]									"url":	"http://resource.hivoice.cn/dcs-resources/audio/e217a6e75076bb835249ea107b1ef31a.mp3",
-
-[20190226_15:53:52]									"auth":	"1"
-
-[20190226_15:53:52]								}
-
-[20190226_15:53:52]							}]
-
-[20190226_15:53:52]					}
-
-[20190226_15:53:52]				}]
-
-[20190226_15:53:52]		}
-
-[20190226_15:53:52]	}
-
-[20190226_15:53:52]}\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_thread_main.c:uni_appkey_get:453][0m "get appkey bmgfkakicb2et243usfbizdt45mp6utbtb3433il\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_heart_iot_ack:900][0m "--------------------------------------------\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_heart_iot_ack:901][0m "send json iot_ack: {
-
-[20190226_15:53:52]	"MT":	"IACK",
-
-[20190226_15:53:52]	"V":	"v3",
-
-[20190226_15:53:52]	"MB":	{
-
-[20190226_15:53:52]		"IAI":	{
-
-[20190226_15:53:52]			"udid":	"ac71480d67d04d12a520fcce5709d0ce",
-
-[20190226_15:53:52]		},
-
-[20190226_15:53:52]		"ACKI":	{
-
-[20190226_15:53:52]			"udid":	"ac71480d67d04d12a520fcce5709d0ce"
-
-[20190226_15:53:52]		},
-
-[20190226_15:53:52]		"DG":	{
-
-[20190226_15:53:52]			"DSN":	"iot.dstservice.enjoymusic",
-
-[20190226_15:53:52]			"CRSP":	{
-
-[20190226_15:53:52]				"actionRespId":	"091bdbf9-d53c-4f90-834f-ae64d7814059",
-
-[20190226_15:53:52]				"actionDstSId":	"023c33ec-c1af-4e0a-8c82-ee542c9d2795",
-
-[20190226_15:53:52]				"actionTS":	"1551167632903"
-
-[20190226_15:53:52]			}
-
-[20190226_15:53:52]		}
-
-[20190226_15:53:52]	}
-
-[20190226_15:53:52]}\n"
-
-[20190226_15:53:52][47;30m[UniSDK keep_alive.c:ka_jset_option:174][0m "set option : device_id=ac71480d67d04d12a520fcce5709d0ce;\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:944][0m "uni_heart_process_iot Finded DSN, value is:iot.dstservice.enjoymusic\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:1004][0m "iot CMD count :1\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:1048][0m "capality 4\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:1072][0m "iot opers count :1\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:1269][0m "iot process audioID : 2000023858\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_url_mp3_process:1686][0m "url mp3 start set g_playdt 259291\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_url_mp3_process:1701][0m "url mp3 start set g_playadt 0\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:1276][0m "iMp3StartTime: 0\n"
-
-[20190226_15:53:52][47;30m[uni_test_linux.c:uni_voice_lc_cb_fn:686][0m "----uni_voice_lc_cb_fn-errCode = -34004-----"
-
-[20190226_15:53:52][47;30m[uni_test_linux.c:uni_voice_lc_cb_fn:710][0m "lc cb fn call back start...\n"
-
-[20190226_15:53:52][47;30m[uni_voice.c:uni_voice_stop_portal:233][0m "uni_voice_stop_portal\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_normal_play.c:uni_normal_insert_stop:233][0m "UniSdk play_insert_flg 0 stop\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_thread_main.c:uni_voice_stop:767][0m "--------uni_voice_stop start-------g_con_start_flag-----1---\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_normal_play.c:uni_normal_insert_get_status:237][0m "UniSdk play_insert_flg 0 get\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_normal_play.c:uni_check_normal_play_insert:188][0m "play type 5 , status 3, skillmode 0-\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_normal_play.c:uni_check_normal_play_insert:221][0m "ret 1\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_thread_main.c:uni_voice_stop:781][0m "button stop insert status 0 ,check 1\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_normal_play.c:uni_normal_insert_get_status:237][0m "UniSdk play_insert_flg 0 get\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_read_aloud_proc.c:uni_read_text_proc_cancel:181][0m "read_text_proc_status is already stop or cancel.\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_pic_book_read.c:uni_pic_book_read_cancel:209][0m "g_pic_book_read_s.pic_book_read_status is:2"
-
-[20190226_15:53:52][47;30m[UniSDK uni_thread_main.c:uni_appkey_get:453][0m "get appkey bmgfkakicb2et243usfbizdt45mp6utbtb3433il\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_thread_main.c:uni_appkey_get:453][0m "get appkey bmgfkakicb2et243usfbizdt45mp6utbtb3433il\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_heart_request_iot:2911][0m "--------------------------------------------\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_heart_request_iot:2912][0m "send json request: {
-
-[20190226_15:53:52]	"MT":	"IREQ",
-
-[20190226_15:53:52]	"V":	"v3",
-
-[20190226_15:53:52]	"MB":	{
-
-[20190226_15:53:52]		"IAI":	{
-
-[20190226_15:53:52]			"udid":	"ac71480d67d04d12a520fcce5709d0ce",
-
-[20190226_15:53:52]			"appKey":	"bmgfkakicb2et243usfbizdt45mp6utbtb3433il",
-
-[20190226_15:53:52]			"iotAgentVer":	"v3"
-
-[20190226_15:53:52]		},
-
-[20190226_15:53:52]		"RI":	{
-
-[20190226_15:53:52]			"SRId":	"2064031431",
-
-[20190226_15:53:52]			"IT":	"request"
-
-[20190226_15:53:52]		},
-
-[20190226_15:53:52]		"DG":	{
-
-[20190226_15:53:52]			"DSN":	"iot.dstservice.enjoymusic"
-
-[20190226_15:53:52]		},
-
-[20190226_15:53:52]		"DS":	{
-
-[20190226_15:53:52]			"SS":	{
-
-[20190226_15:53:52]				"DSTS":	"waiting2play"
-
-[20190226_15:53:52]			},
-
-[20190226_15:53:52]			"UNIREQ":	{
-
-[20190226_15:53:52]				"V":	"v3",
-
-[20190226_15:53:52]				"DSI":	"iot.dstservice.enjoymusic.stopplay",
-
-[20190226_15:53:52]				"PT":	{
-
-[20190226_15:53:52]					"appKey":	"bmgfkakicb2et243usfbizdt45mp6utbtb3433il",
-
-[20190226_15:53:52]					"token":	"dd_1b54d0f3-48c5-4883-8ed3-1da2e981668e",
-
-[20190226_15:53:52]					"udid":	"ac71480d67d04d12a520fcce5709d0ce",
-
-[20190226_15:53:52]					"ttsStreamId":	"27",
-
-[20190226_15:53:52]				}
-
-[20190226_15:53:52]			}
-
-[20190226_15:53:52]		}
-
-[20190226_15:53:52]	}
-
-[20190226_15:53:52]}\n"
-
-[20190226_15:53:52][47;30m[UniSDK keep_alive.c:ka_jset_option:174][0m "set option : device_id=ac71480d67d04d12a520fcce5709d0ce;\n"
-
-[20190226_15:53:52][47;30m[UniSDK keep_alive.c:ka_jset_option:174][0m "set option : device_id=ac71480d67d04d12a520fcce5709d0ce;owner_id=ac71480d67d04d12a520fcce5709d0ce;\n"
-
-[20190226_15:53:52][47;30m[UniSDK keep_alive.c:ka_jset_option:174][0m "set option : device_id=ac71480d67d04d12a520fcce5709d0ce;\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_heart.c:uni_heart_stop:2372][0m "heart uni_heart_stop add end flag\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_thread_main.c:uni_voice_stop:791][0m "button stop play\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_tts.c:uni_stop_play:880][0m "stop_play start\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_audio_manager.c:uni_audio_manager_stop_all:71][0m "entry, stop all audio!\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_tts.c:uni_stop_play:882][0m "stop_play end\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_asr.c:uni_stop_asr:1242][0m "stop_asr start\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_wakeup.c:uni_stop_wakeup:838][0m "stop_wakeup start\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_wakeup.c:uni_stop_wakeup:845][0m "-------wakeup stop flag = 1\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_audio_manager.c:_audio_manager_clear_play_queue:804][0m "clear normal queue\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_audio_manager.c:_audio_manager_clear_play_queue:809][0m "clear queue want stop\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_normal_play.c:audio_online_mp3_stop:1988][0m "check play status PLAY\n"
-
-[20190226_15:53:52][47;30m[UniSDK uni_normal_play.c:audio_online_mp3_stop:2007][0m "set play status INTERRUPED\n"
-
-[20190226_15:53:52][47;30m[UniSDK fireair.c:uni_fireair_adplayer_mp3_stop:692][0m "adplayer stop\n"
-
-[20190226_15:53:52]adstop line: 368====
-
-[20190226_15:53:52]audio_decode line: 857====stop player for  by stop button!!!! 
-
-[20190226_15:53:53][47;30m[UniSDK uni_wakeup.c:uni_do_wakeup:417][0m "wake up break\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_wakeup.c:uni_do_wakeup:382][0m "do_wakeup wakeup sem wait\n"
-
-[20190226_15:53:53]audio_play line: 1065====adplay exit #########
-
-[20190226_15:53:53][47;30m[UniSDK uni_wakeup.c:uni_stop_wakeup:845][0m "-------wakeup stop flag = 1\n"
-
-[20190226_15:53:53]adstop line: 379====decode_t_over=1
-
-[20190226_15:53:53]*****adplayer clear playing time*******
-
-[20190226_15:53:53][47;30m[UniSDK uni_normal_play.c:audio_online_mp3_stop:2014][0m "wait play sem\n"
-
-[20190226_15:53:53][47;30m[UniSDK fireair.c:uni_fireair_adplayer_mp3_query:661][0m "ret = 0  status = 30 stop end\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_normal_play.c:audio_online_mp3_play:1883][0m "online mp3 end by stop--\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_normal_play.c:audio_online_mp3_play:1926][0m "get play status INTERRUPED\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_normal_play.c:_uni_normal_play_recv_msg:2171][0m "wait for a new msg\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_normal_play.c:audio_online_mp3_stop:2016][0m "get play sem\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_heart.c:uni_get_play_pos_with_return:1821][0m "set play pos , adt 0, dt 259 ,play time 43\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_heart.c:uni_get_play_pos_with_return:1827][0m "--------------pos0-------------\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_heart.c:uni_get_play_pos_with_return:1842][0m "show playPos : 16.58\n"
-
-[20190226_15:53:53][47;30m[uni_test_linux.c:uni_voice_tts_cb_fn:492][0m "pstResult->mode: 5 pstResult->result: 0"
-
-[20190226_15:53:53][47;30m[uni_test_linux.c:uni_voice_tts_cb_fn:503][0m "DEMO uni_voice_tts_cb_fn process\n"
-
-[20190226_15:53:53][47;30m[uni_led_lattice.c:uni_led_lattice_set_status:70][0m "[LATTICE] Set LATTICE Status = 0\r\n"
-
-[20190226_15:53:53][47;30m[uni_led.c:uni_led_set_status:35][0m "[LED] Set LED Status = 0\r\n"
-
-[20190226_15:53:53][47;30m[uni_test_linux.c:uni_voice_tts_cb_fn:667][0m "----------TTS-MODE-5-----\n"
-
-[20190226_15:53:53][47;30m[uni_test_linux.c:uni_voice_tts_cb_fn:668][0m "---------TTS-RESULT--0-----\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_wakeup.c:uni_reset_wakeup_time:894][0m "iAudioCount set to be 0, Tue Feb 26 15:53:53 2019
-
-[20190226_15:53:53]"
-
-[20190226_15:53:53][47;30m[UniSDK uni_heart.c:uni_heart_play_contorl:2433][0m "uni_SDK send status playing or pause: 2\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_thread_main.c:uni_appkey_get:453][0m "get appkey bmgfkakicb2et243usfbizdt45mp6utbtb3433il\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_thread_main.c:uni_appkey_get:453][0m "get appkey bmgfkakicb2et243usfbizdt45mp6utbtb3433il\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_heart.c:uni_heart_updatastatus_iot:3161][0m "--------------------------------------------\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_heart.c:uni_heart_updatastatus_iot:3162][0m "send json request: {
-
-[20190226_15:53:53]	"MT":	"updateStatus",
-
-[20190226_15:53:53]	"V":	"v3",
-
-[20190226_15:53:53]			"udid":	"ac71480d67d04d12a520fcce5709d0ce",
-
-[20190226_15:53:53]			"appKey":	"bmgfkakicb2et243usfbizdt45mp6utbtb3433il",
-
-[20190226_15:53:53]			"iotAgentVer":	"v3"
-
-[20190226_15:53:53]		},
-
-[20190226_15:53:53]		"DG":	{
-
-[20190226_15:53:53]			"DSN":	"iot.dstservice.enjoymusic"
-
-[20190226_15:53:53]		},
-
-[20190226_15:53:53]		"DS":	{
-
-[20190226_15:53:53]			"UI":	{
-
-[20190226_15:53:53]				"CTOS":	{
-
-[20190226_15:53:53]					"persistence":	"no"
-
-[20190226_15:53:53]				},
-
-[20190226_15:53:53]				"PT":	{
-
-[20190226_15:53:53]					"appKey":	"bmgfkakicb2et243usfbizdt45mp6utbtb3433il",
-
-[20190226_15:53:53]					"udid":	"ac71480d67d04d12a520fcce5709d0ce",
-
-[20190226_15:53:53]					"token":	"dd_1b54d0f3-48c5-4883-8ed3-1da2e981668e",
-
-[20190226_15:53:53]					"attr":	{
-
-[20190226_15:53:53]						"currAudioId":	"2000023858",
-
-[20190226_15:53:53]						"currPlayStatus":	"4",
-
-[20190226_15:53:53]						"volume":	"",
-
-[20190226_15:53:53]						"value":	"",
-
-[20190226_15:53:53]						"pos":	"16.58",
-
-[20190226_15:53:53]						"audioFormat":	""
-
-[20190226_15:53:53]					}
-
-[20190226_15:53:53]				}
-
-[20190226_15:53:53]			}
-
-[20190226_15:53:53]		}
-
-[20190226_15:53:53]	}
-
-[20190226_15:53:53][47;30m[UniSDK keep_alive.c:ka_jset_option:174][0m "set option : device_id=ac71480d67d04d12a520fcce5709d0ce;\n"
-
-[20190226_15:53:53][47;30m[UniSDK keep_alive.c:ka_jset_option:174][0m "set option : device_id=ac71480d67d04d12a520fcce5709d0ce;owner_id=ac71480d67d04d12a520fcce5709d0ce;\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_normal_play.c:audio_online_mp3_complete_end:2157][0m "get AUDIO_STATUS_COMPLETE_END\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_audio_manager.c:_audio_manager_clear_play_queue:804][0m "clear normal queue\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_wakeup.c:uni_stop_wakeup:855][0m "stop_wakeup end\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_control.c:uni_con_stop:429][0m "destory com sem\n"
-
-[20190226_15:53:53][47;30m[uni_test_linux.c:uni_voice_lc_cb_fn:714][0m "lc cb fn call end...\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:1314][0m "iot mp3 process ACT_PLAY recv_data_flag 0\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_audio_manager.c:uni_audio_manager_play_file_tts:448][0m "entry pcm play file[/home/uniapp/resource/audio/girl/play_find_3.pcm]\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_audio_manager.c:_audio_manager_get_audio_handler:614][0m "find a audio handler[8]\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_audio_manager.c:_audio_manager_audio_node_create:674][0m "create a audio node,cmd[1],type[8],grade[2]\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_audio_manager.c:_audio_manager_normal_scheduler:914][0m "play a new audio node\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_audio_manager.c:_audio_manager_notify_play:782][0m "notify a msg to queue\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_audio_manager.c:_audio_manager_msg_normal_process:1005][0m "request cmd is 1, result is 0\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_normal_play.c:uni_normal_play_process:2217][0m "recv a normal msg, cmd[1], type[8],status[0]\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_wakeup.c:uni_reset_wakeup_time:894][0m "iAudioCount set to be 0, Tue Feb 26 15:53:54 2019
-
-[20190226_15:53:53]"
-
-[20190226_15:53:53][47;30m[UniSDK uni_normal_play.c:audio_file_tts_play:1438][0m "pcmfile path [/home/uniapp/resource/audio/girl/play_find_3.pcm]\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_audio.c:uni_audio_set_conf:1845][0m "UNI_SND_PCM_STREAM_PLAYBACK uni_audio_set_conf 1845 9\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_normal_play.c:_pcm_play_device_open:359][0m "open plug:dmix end--\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_thread_main.c:uni_con_thread_start:590][0m "Thread con start!\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_control.c:uni_do_con:137][0m "Demo KAR mode start\n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_control.c:uni_do_con:176][0m "Wakeup... \n"
-
-[20190226_15:53:53][47;30m[UniSDK uni_audio_manager.c:uni_audio_manager_play_online_mp3:488][0m "entry grade[2] cmd[1]\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_audio_manager.c:uni_audio_manager_play_online_mp3:490][0m "entry online mp3 url[http://resource.hivoice.cn/dcs-resources/audio/e217a6e75076bb835249ea107b1ef31a.mp3] skip_time[0] audioid[2000023858]\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:1643][0m "oper value :ACT_PLAY\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2260][0m "send heart data \n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2300][0m "get data respType : 4, dataType : 1, dataID : 35, messageNum : 0 "
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2301][0m "iRet : 53\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2316][0m "sid=no_audio_request_47bae7ce9ca6769d8eff617118ef3415\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2318][0m "messageNum = 0,clear opus_data buff\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2319][0m "-------------end lc 4 recv\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2300][0m "get data respType : i, dataType : 2, dataID : 36, messageNum : 1 "
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2301][0m "iRet : 381\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2325][0m "-------------start lc i recv\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_audio_manager.c:_audio_manager_get_audio_handler:614][0m "find a audio handler[5]\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_audio_manager.c:_audio_manager_audio_node_create:674][0m "create a audio node,cmd[1],type[5],grade[2]\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_audio_manager.c:_audio_manager_msg_normal_process:1005][0m "request cmd is 1, result is 0\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:928][0m "\nrecv IotData = {
-
-[20190226_15:53:54]	"MT":	"IACT",
-
-[20190226_15:53:54]	"V":	"v1",
-
-[20190226_15:53:54]	"MB":	{
-
-[20190226_15:53:54]			"DSN":	"iot.dstservice.enjoymusic",
-
-[20190226_15:53:54]			"CRSP":	{
-
-[20190226_15:53:54]				"actionDstSId":	"422ff284-10e9-4f73-8c67-b135c5228fc1",
-
-[20190226_15:53:54]				"actionTS":	"1551167632958"
-
-[20190226_15:53:54]			}
-
-[20190226_15:53:54]		},
-
-[20190226_15:53:54]		"DS":	{
-
-[20190226_15:53:54]			"SS":	{
-
-[20190226_15:53:54]				"DSTS":	"playing"
-
-[20190226_15:53:54]			},
-
-[20190226_15:53:54]			"UNICMD":	[{
-
-[20190226_15:53:54]					"CP":	"iot.capability.auopr",
-
-[20190226_15:53:54]					"OPER":	"iot.command.auopr.progress",
-
-[20190226_15:53:54]					"PT":	{
-
-[20190226_15:53:54]								"oper":	"START_SYNC_PROGRESS",
-
-[20190226_15:53:54]								"attrs":	{
-
-[20190226_15:53:54]								}
-
-[20190226_15:53:54]							}]
-
-[20190226_15:53:54]					}
-
-[20190226_15:53:54]				}]
-
-[20190226_15:53:54]	}
-
-[20190226_15:53:54]}\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_heart_iot_ack:900][0m "--------------------------------------------\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_heart_iot_ack:901][0m "send json iot_ack: {
-
-[20190226_15:53:54]	"MT":	"IACK",
-
-[20190226_15:53:54]	"V":	"v3",
-
-[20190226_15:53:54]	"MB":	{
-
-[20190226_15:53:54]		"IAI":	{
-
-[20190226_15:53:54]			"udid":	"ac71480d67d04d12a520fcce5709d0ce",
-
-[20190226_15:53:54]			"appKey":	"bmgfkakicb2et243usfbizdt45mp6utbtb3433il",
-
-[20190226_15:53:54]			"iotAgentVer":	"v3"
-
-[20190226_15:53:54]		},
-
-[20190226_15:53:54]		"ACKI":	{
-
-[20190226_15:53:54]			"udid":	"ac71480d67d04d12a520fcce5709d0ce"
-
-[20190226_15:53:54]		},
-
-[20190226_15:53:54]		"DG":	{
-
-[20190226_15:53:54]			"DSN":	"iot.dstservice.enjoymusic",
-
-[20190226_15:53:54]			"CRSP":	{
-
-[20190226_15:53:54]				"actionRespId":	"72b7334c-51c0-4614-bd30-2440a8dee2d0",
-
-[20190226_15:53:54]				"actionDstSId":	"422ff284-10e9-4f73-8c67-b135c5228fc1",
-
-[20190226_15:53:54]				"actionTS":	"1551167632958"
-
-[20190226_15:53:54]			}
-
-[20190226_15:53:54]		}
-
-[20190226_15:53:54]	}
-
-[20190226_15:53:54]}\n"
-
-[20190226_15:53:54][47;30m[UniSDK keep_alive.c:ka_jset_option:174][0m "set option : device_id=ac71480d67d04d12a520fcce5709d0ce;\n"
-
-[20190226_15:53:54][47;30m[UniSDK keep_alive.c:ka_jset_option:174][0m "set option : device_id=ac71480d67d04d12a520fcce5709d0ce;owner_id=ac71480d67d04d12a520fcce5709d0ce;\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:944][0m "uni_heart_process_iot Finded DSN, value is:iot.dstservice.enjoymusic\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:1004][0m "iot CMD count :1\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:1048][0m "capality 4\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:1072][0m "iot opers count :1\n"
-
-[20190226_15:53:54][47;30m[uni_test_linux.c:uni_voice_lc_cb_fn:686][0m "----uni_voice_lc_cb_fn-errCode = -34019-----"
-
-[20190226_15:53:54][47;30m[uni_test_linux.c:uni_voice_lc_cb_fn:819][0m "IVM_CLIENT_LC_APP   ENTER_PLAY_FACE\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_heart_process_iot:1643][0m "oper value :START_SYNC_PROGRESS\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2329][0m "-------------end lc i recv\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2300][0m "get data respType : 4, dataType : 1, dataID : 0, messageNum : 0 "
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2301][0m "iRet : 53\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2316][0m "sid=no_audio_request_47bae7ce9ca6769d8eff617118ef3415\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2318][0m "messageNum = 0,clear opus_data buff\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_heart.c:uni_kar_start:2319][0m "-------------end lc 4 recv\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_wakeup.c:uni_wakeup_sem_put:633][0m "wakeup sem put\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_wakeup.c:uni_do_wakeup:399][0m "do_wakeup wakeup sem get\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_wakeup.c:start_domain:335][0m "no mp3 play g_wakeup_threshold 35 \n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_wakeup.c:start_domain:340][0m "start wakeup ret = 0 threshold = 35\n"
-
-[20190226_15:53:54][47;30m[UniSDK uni_wakeup.c:uni_do_wakeup:413][0m "ui32TimeOutTimes value set to be 0, Tue Feb 26 15:53:55 2019
-
-[20190226_15:53:55]FILE: monitor_ping.c, LINE: 171: ----3----link_status--------- connected
-
-[20190226_15:53:57]FAIL(422 ~ 468):[0 0.000, 你好小云]
-
-[20190226_15:53:57][47;30m[UniSDK uni_audio.c:uni_audio_close:1095][0m "uni_audio_close 1095 disable tx fd\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_normal_play.c:_pcm_play_device_close:375][0m "play close--\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_normal_play.c:audio_file_tts_play:1469][0m "get play status END\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_normal_play.c:uni_normal_play_process:2234][0m "_audio_status 4 4\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_audio_manager.c:uni_audio_manager_play_end:104][0m "recv a play end msg:cmd[1],type[8],grade[2],status[4]\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_normal_play.c:_uni_normal_play_recv_msg:2171][0m "wait for a new msg\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_normal_play.c:audio_file_tts_end:1508][0m "no need AUDIO_STATUS_END\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_wakeup.c:uni_reset_wakeup_time:894][0m "iAudioCount set to be 0, Tue Feb 26 15:53:58 2019
-
-[20190226_15:53:57]"
-
-[20190226_15:53:57][47;30m[UniSDK uni_audio_manager.c:_audio_manager_msg_normal_process:995][0m "list not empty,continue play\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_audio_manager.c:_audio_manager_notify_play:782][0m "notify a msg to queue\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_audio_manager.c:_audio_manager_msg_normal_process:1005][0m "request cmd is 5, result is -1\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_normal_play.c:uni_normal_play_process:2217][0m "recv a normal msg, cmd[1], type[5],status[0]\n"
-
-[20190226_15:53:57][47;30m[uni_test_linux.c:uni_voice_tts_cb_fn:492][0m "pstResult->mode: 5 pstResult->result: 1010"
-
-[20190226_15:53:57][47;30m[uni_test_linux.c:uni_voice_tts_cb_fn:503][0m "DEMO uni_voice_tts_cb_fn process\n"
-
-[20190226_15:53:57][47;30m[uni_test_linux.c:uni_voice_tts_cb_fn:667][0m "----------TTS-MODE-5-----\n"
-
-[20190226_15:53:57][47;30m[uni_test_linux.c:uni_voice_tts_cb_fn:668][0m "---------TTS-RESULT--1010-----\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_heart.c:uni_heart_play_contorl:2433][0m "uni_SDK send status playing or pause: 1\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_heart.c:uni_get_play_pos:1752][0m "set play pos , adt 0, dt 259 ,play time 0\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_heart.c:uni_get_play_pos:1758][0m "--------------pos0-------------\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_heart.c:uni_get_play_pos:1773][0m "show playPos : 0.00\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_thread_main.c:uni_appkey_get:453][0m "get appkey bmgfkakicb2et243usfbizdt45mp6utbtb3433il\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_thread_main.c:uni_appkey_get:453][0m "get appkey bmgfkakicb2et243usfbizdt45mp6utbtb3433il\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_heart.c:uni_heart_updatastatus_iot:3161][0m "--------------------------------------------\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_heart.c:uni_heart_updatastatus_iot:3162][0m "send json request: {
-
-[20190226_15:53:57]	"MT":	"updateStatus",
-
-[20190226_15:53:57]	"V":	"v3",
-
-[20190226_15:53:57]	"MB":	{
-
-[20190226_15:53:57]		"IAI":	{
-
-[20190226_15:53:57]			"udid":	"ac71480d67d04d12a520fcce5709d0ce",
-
-[20190226_15:53:57]			"appKey":	"bmgfkakicb2et243usfbizdt45mp6utbtb3433il",
-
-[20190226_15:53:57]			"iotAgentVer":	"v3"
-
-[20190226_15:53:57]		},
-
-[20190226_15:53:57]		"DG":	{
-
-[20190226_15:53:57]			"DSN":	"iot.dstservice.enjoymusic"
-
-[20190226_15:53:57]		},
-
-[20190226_15:53:57]		"DS":	{
-
-[20190226_15:53:57]			"UI":	{
-
-[20190226_15:53:57]				"V":	"v3",
-
-[20190226_15:53:57]				"CTOS":	{
-
-[20190226_15:53:57]					"persistence":	"no"
-
-[20190226_15:53:57]				},
-
-[20190226_15:53:57]				"PT":	{
-
-[20190226_15:53:57]					"appKey":	"bmgfkakicb2et243usfbizdt45mp6utbtb3433il",
-
-[20190226_15:53:57]					"udid":	"ac71480d67d04d12a520fcce5709d0ce",
-
-[20190226_15:53:57]					"token":	"dd_1b54d0f3-48c5-4883-8ed3-1da2e981668e",
-
-[20190226_15:53:57]					"attr":	{
-
-[20190226_15:53:57]						"currAudioId":	"2000023858",
-
-[20190226_15:53:57]						"currPlayStatus":	"1",
-
-[20190226_15:53:57]						"volume":	"",
-
-[20190226_15:53:57]						"value":	"",
-
-[20190226_15:53:57]						"pos":	"0.00",
-
-[20190226_15:53:57]					}
-
-[20190226_15:53:57]				}
-
-[20190226_15:53:57]			}
-
-[20190226_15:53:57]		}
-
-[20190226_15:53:57]	}
-
-[20190226_15:53:57]}\n"
-
-[20190226_15:53:57][47;30m[UniSDK keep_alive.c:ka_jset_option:174][0m "set option : device_id=ac71480d67d04d12a520fcce5709d0ce;\n"
-
-[20190226_15:53:57][47;30m[UniSDK keep_alive.c:ka_jset_option:174][0m "set option : device_id=ac71480d67d04d12a520fcce5709d0ce;owner_id=ac71480d67d04d12a520fcce5709d0ce;\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_wakeup.c:uni_reset_wakeup_time:894][0m "iAudioCount set to be 0, Tue Feb 26 15:53:58 2019
-
-[20190226_15:53:57][47;30m[UniSDK uni_normal_play.c:audio_online_mp3_play:1861][0m "online mp3 start, url[http://resource.hivoice.cn/dcs-resources/audio/e217a6e75076bb835249ea107b1ef31a.mp3] skip time[0]\n"
-
-[20190226_15:53:57][47;30m[UniSDK fireair.c:uni_fireair_adplayer_mp3_query:661][0m "ret = 0  status = 30 stop end\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_normal_play.c:_mp3_read_play:731][0m "-----------------------_mp3_read_play---------------------------\n"
-
-[20190226_15:53:57][47;30m[UniSDK fireair.c:uni_fireair_adplayer_mp3_read_play:628][0m "adplayer start play\n"
-
-[20190226_15:53:57]ADPLAY START.......
-
-[20190226_15:53:57]adplay line: 271====url:http://resource.hivoice.cn/dcs-resources/audio/e217a6e75076bb835249ea107b1ef31a.mp3
-
-[20190226_15:53:57]adplay line: 344====
-
-[20190226_15:53:57][47;30m[UniSDK fireair.c:uni_fireair_adplayer_mp3_read_play:637][0m "adplayer decode url use time = 332\n"
-
-[20190226_15:53:57][47;30m[UniSDK uni_normal_play.c:audio_online_mp3_play:1873][0m "set play status PLAY,start play return 0\n"
-
-[20190226_15:53:57]audio_play line: 637====is_card = 0
-
-[20190226_15:53:57]audio_play line: 678====wait set_dec_para ------1
-
-[20190226_15:53:57]audio_decode line: 342====begin open input!*********!!!
-
-[20190226_15:53:57][47;30m[UniSDK uni_tts.c:uni_fireair_timing_cb_play:356][0m "---------------timing callback------0\n"
-
-[20190226_15:54:00][47;30m[UniSDK uni_tts.c:uni_fireair_timing_cb_play:356][0m "---------------timing callback------1\n"
-
-[20190226_15:54:00][47;30m[UniSDK uni_tts.c:uni_fireair_timing_cb_play:365][0m "url ->dns use time = 2359\n"
-
-[20190226_15:54:00]audio_decode line: 364====begin fin stream_info*********!!!
-
-[20190226_15:54:00][mp3 @ 0x91cb30] Estimating duration from bitrate, this may be inaccurate
-
-[20190226_15:54:00]audio_decode line: 379====adplayer music duration 258
-
-[20190226_15:54:00]audio_decode line: 381====
-
-[20190226_15:54:00]Input #0, mp3, from 'http://resource.hivoice.cn/dcs-resources/audio/e217a6e75076bb835249ea107b1ef31a.mp3':
-
-[20190226_15:54:00]  Metadata:
-
